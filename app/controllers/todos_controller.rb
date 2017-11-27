@@ -1,4 +1,4 @@
-class TodosController <ApplicationController
+class TodosController < ApplicationController
 	def new
 		@todo = Todo.new
 	end 
@@ -14,7 +14,7 @@ class TodosController <ApplicationController
 	end
 
 	def show 
-			@todo = Todo.find(params[:id])
+		@todo = Todo.find(params[:id])
 	end
 
 
